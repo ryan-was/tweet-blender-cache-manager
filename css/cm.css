@@ -1,0 +1,54 @@
+/* lists */
+#pagination {
+	margin: 15px 0px 15px 0;
+	min-height: 20px;
+}
+
+div.pagination {
+	display:inline-block;
+}
+
+div.pagination span, div.pagination a {
+	margin: 0 2px;
+}
+
+th.sortable {
+	cursor:pointer;
+}
+
+/* sorting */
+th.sortable img {
+	vertical-align:middle;	
+}
+
+label.tb_cm {
+	color:#222222;
+	text-shadow:0 1px 0 #FFFFFF;
+	font-size:12px;
+}
+
+.widefat th.sortable {
+	padding:7px;
+	white-space:nowrap;
+}
+
+#btn_delete {
+	padding:2px 8px;
+}
+
+.tablenav div.actions {
+	float:left;
+	width:20%;
+	display:inline-block;
+}
+
+.tablenav div.tablenav-pages {
+	float:right;
+	width:70%;
+	text-align:right;
+	display:inline-block;
+}
+
+#records_per_page {
+	width:40px;
+}
